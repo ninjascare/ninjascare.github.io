@@ -1,0 +1,33 @@
+.container {
+    /* background: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Ninja-wallpaper-2560x1440--758x426.jpg); */
+    background-color: #25008a;
+background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* margin: 0 auto; */
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "main main main aside"
+    "footer footer footer footer";
+    
+}
+
+header {
+    color:red;
+    border: solid white;
+    text-align: center;
+    grid-area: header;
+}
+aside {
+    grid-area: aside;
+}
+main{
+    grid-area:main;
+}
+footer {
+    grid-area:footer;
+}
