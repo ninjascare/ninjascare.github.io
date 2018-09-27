@@ -25,6 +25,7 @@ header {
 aside {
     grid-area: aside;
     color: #bdd660
+
 }
 
 main {
@@ -35,8 +36,6 @@ main {
 
 footer {
     grid-area: footer;
-    color: ;
-    ;
     border: dotted black;
     text-align: center;
     display: flex;
@@ -45,18 +44,14 @@ footer {
     font-size: 20px;
 }
 
-h2 {
-    text-decoration: underline;
-}
+
 
 a {
     text-decoration: none;
     color: red;
 }
 
-span {
-    font-size: 20px
-}
+
 
 img {
     height: 200px;
@@ -69,6 +64,6 @@ color: red;
 a:hover{
     font-size: 30px;
 }
-.i {
-    font-size: 67px;
+.love {
+    list-style: none;
 }
