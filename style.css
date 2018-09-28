@@ -64,3 +64,33 @@ a:hover {
   border-radius: 20%;
   
 }
+
+@media (max-width: 700px) {
+    h1{
+        color:black;
+    }
+    .container{
+        background-color: #236096;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+
+  margin: 0 auto;
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "main main main aside"
+    "main main main aside"
+    "header header header header"
+    "footer footer footer footer";
+    }
+    .love {
+        border: solid black;
+    }
+aside {
+    border: dotted black
+}
+img {
+    height: 150px;
+}
+}
