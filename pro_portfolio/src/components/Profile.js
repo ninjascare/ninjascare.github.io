@@ -14,12 +14,19 @@ const StylePage = styled.div`
   );
 `;
 
+const FooterStyle = styled.div`
+  clear: both;
+  position: relative;
+  height: 40px;
+  margin-top: -40px;
+  background: black;
+`;
+
 export default class Profile extends Component {
   render() {
     return (
       <div>
         <StylePage>
-
           <Parallax>
             <div>
               <h1>Welcome to my portfolio</h1>
@@ -33,8 +40,10 @@ export default class Profile extends Component {
           <Parallax>
             <ProjectsView />
           </Parallax>
-          
         </StylePage>
+        <FooterStyle>
+          <footer>jhgfdsadfn</footer>
+        </FooterStyle>
       </div>
     );
   }
