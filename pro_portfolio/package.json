@@ -1,7 +1,7 @@
 {
   "name": "pro_portfolio",
   "version": "0.1.0",
-  "homepage": "https://ninjascare.github.io/",
+  "homepage": "https://ninjascare.github.io/ninjascare.github.io",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
