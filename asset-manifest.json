@@ -1,11 +1,11 @@
 {
-  "main.js": "/ninjascare.github.io/static/js/main.a056ab25.chunk.js",
-  "main.js.map": "/ninjascare.github.io/static/js/main.a056ab25.chunk.js.map",
-  "static/js/1.1e9b602b.chunk.js": "/ninjascare.github.io/static/js/1.1e9b602b.chunk.js",
-  "static/js/1.1e9b602b.chunk.js.map": "/ninjascare.github.io/static/js/1.1e9b602b.chunk.js.map",
-  "runtime~main.js": "/ninjascare.github.io/static/js/runtime~main.86350852.js",
-  "runtime~main.js.map": "/ninjascare.github.io/static/js/runtime~main.86350852.js.map",
-  "index.html": "/ninjascare.github.io/index.html",
-  "precache-manifest.78081d0b5392ff2dab1221ca47079ae0.js": "/ninjascare.github.io/precache-manifest.78081d0b5392ff2dab1221ca47079ae0.js",
-  "service-worker.js": "/ninjascare.github.io/service-worker.js"
+  "main.js": "/portfolio/static/js/main.a056ab25.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.a056ab25.chunk.js.map",
+  "static/js/1.027efe96.chunk.js": "/portfolio/static/js/1.027efe96.chunk.js",
+  "static/js/1.027efe96.chunk.js.map": "/portfolio/static/js/1.027efe96.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.4c8cdf11b7e35bcd233ec775c3760954.js": "/portfolio/precache-manifest.4c8cdf11b7e35bcd233ec775c3760954.js",
+  "service-worker.js": "/portfolio/service-worker.js"
 }
