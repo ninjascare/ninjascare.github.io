@@ -1,57 +1,103 @@
 .gridContainer {
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    grid-template-rows: repeat(5, 1fr);
-                    grid-template-areas:
-                                        "sideBar nav nav nav nav nav nav nav "
-                                        "sideBar about about about about about about about"
-                                        "sideBar skills skills skills skills skills skills skills"
-                                        "sideBar project project project project project project project "
-                                        "sideBar contact contact contact contact contact contact contact";
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas:
+    "sideBar nav nav nav nav nav nav nav "
+    "sideBar about about about about about about about"
+    "sideBar skills skills skills skills skills skills skills"
+    "sideBar project project project project project project project "
+    "sideBar contact contact contact contact contact contact contact";
 }
 
-
-
 #nav {
-                    grid-area: nav;
+  grid-area: nav;
+}
+.card {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+}
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: blue;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+}
+.project-image {
+  color: white;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 20vh;
+  width: 10vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #sideBar {
-                    grid-area: sideBar;
-                    color: white;
-                    height: 100%; /* Full-height: remove this if you want "auto" height */
-                    width: 20vw; /* Set the width of the sidebar */
-                    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-                    z-index: 1; /* Stay on top */
-                    top: 0; /* Stay at the top */
-                    left: 0;
-                    background-color: #111; /* Black */
-                    overflow-x: hidden; /* Disable horizontal scroll */
-                    padding-top: 20px;
-                    padding-right: 20px;
+  grid-area: sideBar;
+  color: white;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 20vw; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-right: 20px;
 }
-
+.sideBarAs a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.5em;
+  padding: 10px;
+  color: coral;
+  text-decoration: none;
+}
+.sideBarAs a:hover {
+  color: white;
+  text-emphasis: bold;
+  text-decoration: underline;
+  background-image: url("https://thumbs.gfycat.com/CheeryNegativeKoodoo-small.gif");
+}
 #profilePic {
-                    grid-area: profilePic;
-                    height: 30vh;
-                    border: solid white 10px;
-                    border-radius: 100em;
-
-
+  grid-area: profilePic;
+  height: 30vh;
+  border: solid white 10px;
+  border-radius: 100em;
 }
 
 #aboutMe {
-                    grid-area: about;
+  grid-area: about;
 }
 
 #skills {
-                    grid-area: skills;
+  grid-area: skills;
 }
 
 #projectView {
-                    grid-area: project;
+  grid-area: project;
 }
 
 #contact {
-                    grid-area: contact;
+  grid-area: contact;
 }
