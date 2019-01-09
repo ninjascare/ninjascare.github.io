@@ -1,17 +1,29 @@
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   grid-template-areas:
-    "sideBar nav nav nav nav nav nav nav "
+    "sideBar first first first first first first first "
     "sideBar about about about about about about about"
+    "sideBar second second second second second second second"
     "sideBar skills skills skills skills skills skills skills"
+    "sideBar third third third third third third third"
     "sideBar project project project project project project project "
+    "sideBar fourth fourth fourth fourth fourth fourth fourth"
     "sideBar contact contact contact contact contact contact contact";
 }
 
-#nav {
-  grid-area: nav;
+#first {
+  grid-area: first;
+}
+#second {
+  grid-area: second;
+}
+#third {
+  grid-area: third;
+}
+#fourth {
+  grid-area: fourth;
 }
 
 #cards {
@@ -181,4 +193,14 @@
 
 #contact {
   grid-area: contact;
+}
+
+.parent1 {
+  background: url("http://www.tcrascolorado.org/wp-content/uploads/2016/09/dark_blue_texture_by_carlbert-d4f8fa2.jpg") 100% fixed no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+.child1 {
+  padding: 400px;
 }
