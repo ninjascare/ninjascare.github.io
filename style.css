@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -16,12 +20,15 @@
 #first {
   grid-area: first;
 }
+
 #second {
   grid-area: second;
 }
+
 #third {
   grid-area: third;
 }
+
 #fourth {
   grid-area: fourth;
 }
@@ -196,11 +203,39 @@
 }
 
 .parent1 {
-  background: url("http://www.tcrascolorado.org/wp-content/uploads/2016/09/dark_blue_texture_by_carlbert-d4f8fa2.jpg") 100% fixed no-repeat;
+  background: url("https://media.giphy.com/media/R7q64t6ia4Pks/giphy.gif")  fixed no-repeat;
   background-size: cover;
   width: 100vw;
 }
 
 .child1 {
   padding: 400px;
+  display: flex;
+flex-direction: column;
+}
+
+.child1 h1 {
+  color: white;
+
+
+}
+
+.child1 button {
+  color: white;
+  background-color: transparent;
+  height: 6vh;
+  width: 20vw;
+  position: relative;
+}
+.child1 a {
+  transition-duration: 100s;
+}
+
+.child1 button:hover {
+  border-radius: 100px;
+  /* background-color: aquamarine; */
+  background: url('https://scene360.com/wp-content/uploads/2015/11/cool-animated-gif-08.gif')
+}
+.child1 span{
+color: coral;
 }
