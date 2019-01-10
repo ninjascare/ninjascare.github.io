@@ -239,7 +239,6 @@ html {
 
 #projectView {
   grid-area: project;
-
 }
 
 #contact {
@@ -257,7 +256,6 @@ html {
   background-size: cover;
   width: 80vw;
 }
-
 
 .child1 {
   padding: 471px;
