@@ -136,7 +136,6 @@ html {
   -o-animation: BackgroundAnimated 15s linear infinite;
   animation: BackgroundAnimated 15s linear infinite;
 
-
   @keyframes BackgroundAnimated {
     from {
       background-position: 0 0
