@@ -256,12 +256,12 @@ html {
   background-size: cover;
   width: 80vw;
 }
+
 .parent3 {
   background: url('https://media.giphy.com/media/Mfr9Bw7BKuQcU/giphy.gif') fixed no-repeat;
   background-size: cover;
   width: 80vw;
 }
-
 
 .child1 {
   padding: 471px;
@@ -274,6 +274,7 @@ html {
   display: flex;
   flex-direction: column;
 }
+
 .child3 {
   padding: 570px;
   display: flex;
