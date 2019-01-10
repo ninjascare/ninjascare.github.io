@@ -39,6 +39,8 @@ html {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 10px;
+
 }
 
 .card-img-overlay {
@@ -238,6 +240,31 @@ html {
 
 #projectView {
   grid-area: project;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "heading heading cardHolder cardHolder cardHolder ";
+
+}
+
+.heading {
+  grid-area: heading;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #152340;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+
+.cardHolder {
+  grid-area: cardHolder;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact {
