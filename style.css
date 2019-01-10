@@ -246,7 +246,7 @@ html {
 
 }
 
-.heading {
+#projectView>.heading {
   grid-area: heading;
   color: white;
   text-align: center;
@@ -255,7 +255,7 @@ html {
   align-items: center;
   background-color: #152340;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
-
+  margin-bottom: -50px;
 }
 
 .cardHolder {
@@ -282,7 +282,7 @@ html {
   justify-content: center;
   align-items: center;
   background-color: #384d5c;
-background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
 }
 
 .contacts {
