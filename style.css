@@ -34,11 +34,6 @@ html {
 }
 
 #cards {
-  display: block;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
   padding: 10px;
 
 }
@@ -205,7 +200,9 @@ html {
 
 .bio {
   grid-area: bio;
-  background-color: slategray;
+  color: white;
+  background-color: #333654;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
   text-align: center;
   display: flex;
   justify-content: center;
@@ -223,7 +220,8 @@ html {
 
 .skill {
   grid-area: skill;
-  background-color: slategray;
+  background-color: #636363;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
   text-align: center;
   display: flex;
   justify-content: center;
@@ -242,6 +240,7 @@ html {
   grid-area: project;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   grid-template-areas:
     "heading heading cardHolder cardHolder cardHolder ";
 
@@ -256,6 +255,7 @@ html {
   align-items: center;
   background-color: #152340;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+
 }
 
 .cardHolder {
@@ -263,12 +263,33 @@ html {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 5em;
   align-items: center;
 }
 
 #contact {
   grid-area: contact;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "head head contacts contacts contacts ";
+}
+
+.head {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #384d5c;
+background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 
 .parent1 {
@@ -289,6 +310,12 @@ html {
   width: 80vw;
 }
 
+.parent4 {
+  background: url('https://media.giphy.com/media/ujKJqkw5t87gk/giphy.gif') fixed no-repeat;
+  background-size: cover;
+  width: 80vw;
+}
+
 .child1 {
   padding: 471px;
   display: flex;
@@ -302,6 +329,12 @@ html {
 }
 
 .child3 {
+  padding: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+.child4 {
   padding: 570px;
   display: flex;
   flex-direction: column;
@@ -330,4 +363,8 @@ html {
 
 .child1 span {
   color: coral;
+}
+
+.imageLinkIn {
+  height: 10vh;
 }
