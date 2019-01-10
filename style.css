@@ -181,16 +181,62 @@ html {
 #profilePic {
   grid-area: profilePic;
   height: 30vh;
-  border: solid white 10px;
+  border: solid white 3px;
   border-radius: 100em;
 }
 
 #aboutMe {
   grid-area: about;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "bio bio info info info";
+}
+
+.info {
+  grid-area: info;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+  grid-area: bio;
+  background-color: slategray;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #skills {
   grid-area: skills;
+  width: 70vw;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "skill skill languages languages languages ";
+}
+
+.skill {
+  grid-area: skill;
+  background-color: slategray;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages {
+  grid-area: languages;
+}
+
+.languages img {
+  height: 15vh;
 }
 
 #projectView {
@@ -203,21 +249,32 @@ html {
 }
 
 .parent1 {
-  background: url("https://media.giphy.com/media/R7q64t6ia4Pks/giphy.gif")  fixed no-repeat;
+  background: url("https://media.giphy.com/media/R7q64t6ia4Pks/giphy.gif") fixed no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 80vw;
 }
 
+.parent2 {
+  background: url('https://media.giphy.com/media/uPf4UPGQKlSCY/giphy.gif') fixed no-repeat;
+  background-size: cover;
+  width: 80vw;
+}
+
+
 .child1 {
-  padding: 400px;
+  padding: 471px;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
+}
+
+.child2 {
+  padding: 570px;
+  display: flex;
+  flex-direction: column;
 }
 
 .child1 h1 {
   color: white;
-
-
 }
 
 .child1 button {
@@ -227,6 +284,7 @@ flex-direction: column;
   width: 20vw;
   position: relative;
 }
+
 .child1 a {
   transition-duration: 100s;
 }
@@ -236,6 +294,7 @@ flex-direction: column;
   /* background-color: aquamarine; */
   background: url('https://scene360.com/wp-content/uploads/2015/11/cool-animated-gif-08.gif')
 }
-.child1 span{
-color: coral;
+
+.child1 span {
+  color: coral;
 }
